@@ -1,0 +1,320 @@
+<mjml>
+  <mj-head>
+    <mj-title>Spirit Airlines Email Clone</mj-title>
+    <mj-attributes>
+      <mj-all font-family="Arial, sans-serif" />
+    </mj-attributes>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .body {
+        font-family: 'Source Sans Pro', Arial, sans-serif;
+      }
+
+      .Main-Section {
+        background-color: white;
+        padding: 0px;
+        margin: 0px;
+        width: 600px;
+        height: 1855.19px;
+      }
+
+      @media only screen and (max-width: 480px) {
+        .menu {
+          text-align: left !important;
+          width: 100% !important;
+          padding: 0 0 0 0;
+        }
+
+        .add-bags {
+          border-color: #efefef !important;
+        }
+
+
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body padding="0 0" align="center">
+    <mj-section css-class="Main-Section" padding="0 0" align="center">
+      <mj-column align="center">
+
+        <!--Header-->
+        <mj-section padding="10px 0 5px 0" align="center" background-color="white">
+          <mj-column padding="0 0" align="center">
+            <mj-text padding="0 0" align="center" color="#007ACC" font-size="16px" font-style="normal" font-weight="700" line-height="22px" text-transformation="uppercase" font-family="source sans pro, arial, sans-serif"> We Can’t Wait To Welcome You Aboard </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <!--Come back to configure this-->
+        <mj-section class="" padding="10px 0px 0 0" height="66px" width="600px" background-color="#ffec00" border-radius="10px 10px 0px 0px">
+          <mj-column padding="0 0" align="left">
+            <mj-image align="left" padding="0px 0px" src="https://save.spirit-airlines.com/assets/responsysimages/spirit/contentlibrary/1_templates/logos/spirit_logo_rgb_black_022019.png" width="145px" height="40px" href="https://www.spirit.com/" />
+          </mj-column>
+          <mj-column css-class="menu" padding-top="10px">
+            <mj-section css-class="menu" padding="0 0 0 0">
+
+              <mj-column css-class="menu" width="50px">
+
+                <mj-text css-class="menu" padding="0 10px 0 0" color="#000000" font-weight="790" font-family="source sans pro, arial, sans-serif"><a  href="https://hotels.spirit.com/hotels/" style="color: #000000; font-weight: 790; font-family: 'source sans pro', arial, sans-serif; text-decoration: none;">Hotel</a></mj-text>
+              </mj-column>
+              <mj-column width="50px">
+                <mj-text css-class="menu" padding="0 10px 0 0" color="#000000" font-weight="790" font-family="source sans pro, arial, sans-serif"><a href="https://cars.spirit.com/rental-cars/"  style="color: #000000; font-weight: 790; font-family: 'source sans pro', arial, sans-serif; text-decoration: none;">Car</a></mj-text>
+              </mj-column>
+              <mj-column width="50px">
+                <mj-text css-class="menu" padding="0 10px 0 0" href="/templates" color="#000000" font-weight="790" font-family="source sans pro, arial, sans-serif"><a href="https://www.spirit.com/my-trips/find-trip"  style="color: #000000; font-weight: 790; font-family: 'source sans pro', arial, sans-serif; text-decoration: none;">Trips</a></mj-text>
+              </mj-column>
+              <mj-column width="70px">
+                <mj-text css-class="menu" padding="0 10px 0 0" href="/components" color="#000000" font-weight="790" font-family="source sans pro, arial, sans-serif"><a href="https://www.spirit.com/s/our-partners"  style="color: #000000; font-weight: 790; font-family: 'source sans pro', arial, sans-serif; text-decoration: none;">Partners</a></mj-text>
+              </mj-column>
+            </mj-section>
+          </mj-column>
+        </mj-section>
+
+        <!--Loyalty Bar Round-->
+        <mj-section padding="0 0 0 0" background-color="#000" width="600px" height="46px">
+          <mj-column>
+            <mj-text color="#fff" padding="13px 220.05px 13px 220.05px" font-weight="600" font-size="14px" line-height="20px" font-family="source sans pro, arial, sans-serif">
+              Free Spirit #0000000000
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <!--Hero Image-->
+        <mj-section padding="0" background-color="white">
+          <mj-column padding="0">
+            <mj-image padding="0" src="https://mi.spirit.com/p/rp/3519fd95a1e69487.png?mi_u=122237638302&mi_ecmp=Preflier_09_AllIn1&destination=ATL" width="600px" height="186px" />
+          </mj-column>
+        </mj-section>
+
+        <!--Body Text-->
+        <mj-section padding="30px 0 16px 0" border-radius="10px" background-color="#EFEFEF" width="600px" height="366px">
+          <mj-column background-color="#EFEFEF" padding="0">
+            <mj-text color="#000" font-family="source sans pro, arial, sans-serif" font-size="36px" font-style="normal" font-weight="700" line-height="42px" padding="0px 160.28px 16px 160.28px">
+              Hi Spirit Guest,
+            </mj-text>
+            <mj-text align="center" padding="0 0 0 0" color="#000" font-family="source sans pro, arial, sans-serif" font-size="20px" font-style="normal" font-weight="600" line-height="26px">
+              Your flight is coming up, and we can't wait to
+            </mj-text>
+            <mj-text align="center" padding="1px 0 15px 0" color="#000" font-family="source sans pro, arial, sans-serif" font-size="20px" font-style="normal" font-weight="600" line-height="26px">
+              welcome you aboard!
+            </mj-text>
+            <mj-text align="center" padding="15px 20px 0 20px" color="#000" font-family="source sans pro, arial, sans-serif" font-size="18px" font-style="normal" font-weight="600" line-height="26px" width="537.495px">
+              Your fare includes a personal item (e.g., purse, small backpack,
+            </mj-text>
+
+            <mj-text align="center" padding="0 20px 0 20px" color="#000" font-family="source sans pro, arial, sans-serif" font-size="18px" font-style="normal" font-weight="600" line-height="26px" width="537.495px">
+              etc.), but if you’re looking to add extras like bags and seats, save
+            </mj-text>
+
+            <mj-text align="center" padding="6.66px 20px 0 20px" color="#000" font-family="source sans pro, arial, sans-serif" font-size="18px" font-style="normal" font-weight="600" line-height="26px" width="537.495px">
+              money by buying now. Plus, if you’re a Free Spirit® member you
+            </mj-text>
+
+            <mj-text align="center" padding="1px 20px 0 20px" color="#000" font-family="source sans pro, arial, sans-serif" font-size="18px" font-style="normal" font-weight="600" line-height="26px" width="537.495px">
+              can earn up to 20X points for every $1 spent with us!
+            </mj-text>
+
+            <mj-section padding="3px 15px 10px 15px">
+              <mj-column padding="0 0">
+                <mj-button border-radius="6px" background-color="#007acc" href="https://www.spirit.com/" font-family="'Source Sans Pro',Arial,sans-serif" font-size="24px" line-height="30px" font-weight="900" background-color="#007acc" color="#ffffff">
+                  MANAGE TRIP
+                </mj-button>
+              </mj-column>
+            </mj-section>
+
+          </mj-column>
+        </mj-section>
+
+        <!--Add Bag Section-->
+        <mj-section css-class="add-bag" padding="0px 0 10px 0" background-color="#FAF9F6" border-radius="10px" width="600px" height="366px">
+          <mj-column>
+            <mj-section align="left">
+              <mj-column align="left" width="100px">
+                <mj-image href="https://save.spirit-airlines.com/pub/acc?_ri_=X0Gzc2X%3DAQjkPkSTSQG0EAzeezf5ww0MzchO1Hv7CzfLDzerpzbzalJzcwgvTkGLJgODFXqw4p5ezbqKcfKVXtpKX%3DWSBSBDTCT&amp;_ei_=E_EC0WN_x4VE_QTgJLYDtNdmoJjPQXt-qQxbXl2vW179SxjpNla3Bd88TuajvUbP0Vn6uSgXy63wNvK-rgzRiY8wEPy-WGDcA9LAu7G3dUUH-8e4gES8Z5745B-zFkKsxBkKrlP4CM3EXpqX06sPKsI3wF7Q3V4Yfk_1SD9ZyRcxqM.&amp;_di_=sbiqnnvs4ej7ufls2duddb7359323m4mg05cjnm6vuu4ho67pkvg" src="https://save.spirit-airlines.com/assets/responsysimages/spirit/contentlibrary/1_templates/masterwireframes/icons/bag_member.png" width="50px"></mj-image>
+              </mj-column>
+              <mj-column>
+                <mj-text padding="10px 0 0 8px" font-size="36px" line-height="42px" font-weight="700">
+                  Add Bags Now
+                </mj-text>
+              </mj-column>
+            </mj-section>
+            <mj-text font-family="'Source Sans Pro',Arial,sans-serif" font-size="16px" color="#000000" font-weight="600">
+              Your fare includes one personal item 18”x14”x8”. Don’t wait to check additional bags at the airport. Add them online ahead of time to save&nbsp;money.
+            </mj-text>
+            <mj-text font-size="24px" line-height="30px" font-weight="900" color="#007acc" text-transform="uppercase">
+              <a href="https://www.spirit.com/" style="text-decoration:none;">ADD BAGS
+                <mj-image src="https://save.spirit-airlines.com/assets/responsysimages/spirit/contentlibrary/1_templates/masterwireframes/icons/arrow_blue.png" width="11px" height="16px"></mj-image>
+              </a>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+
+        <!--Pick A Seat Section-->
+        <mj-section class="pad" background-color="#FAF9F6" padding="0px 0 16px 0" width="600px" height="366px" border="2px solid #efefef">
+          <mj-column padding="0">
+            <mj-section>
+              <mj-column width="80px">
+                <mj-image  href="https://www.spirit.com/" src="https://save.spirit-airlines.com/assets/responsysimages/spirit/contentlibrary/1_templates/masterwireframes/icons/seats_resized.png" width="43px"></mj-image>
+              </mj-column>
+              <mj-column>
+                <mj-text font-size="36px" line-height="42px" font-weight="700">
+                  Pick A Seat
+                </mj-text>
+              </mj-column>
+            </mj-section>
+            <mj-text font-family="'Source Sans Pro',Arial,sans-serif" font-size="16px" color="#000000" font-weight="600">
+              You'll be flying Á La Smarte, which means you choose how you fly and how you save. If you want your preferred seat or need extra legroom you can purchase it&nbsp;now.
+            </mj-text>
+            <mj-text font-size="24px" line-height="30px" font-weight="900" color="#007acc" text-transform="uppercase">
+              <a href="https://save.spirit-airlines.com/pub/acc?_ri_=X0Gzc2X%3DAQjkPkSTSQG0EAzeezf5ww0MzchO1Hv7CzfLDzerpzbzalJzcwgvTkGLJgODFXqw4p5ezbqKcfKVXtpKX%3DWSBSBDURT&amp;_ei_=E_EC0WN_x4VE_QTgJLYDtNdmoJjPQXt-qQxbXl2vW179SxjpNla3Bd88TuajvUbP0Vn6uSgXy63wNvK-rgzRiY8wEPy-WGDcA9LAu7G3dUUH-8e4gES8Z5745B-zFkKsxBkKrlP4CM3EXpqX06sPKsI3wF7Q3V4Yfk_1SD9ZyRcxqM.&amp;_di_=vrkg0a2ij46ilq1j88sfv6nuquor7acaqgbofhklmnj0np3ll2tg" style="text-decoration:none;">SELECT A SEAT
+                <mj-image src="https://save.spirit-airlines.com/assets/responsysimages/spirit/contentlibrary/1_templates/masterwireframes/icons/arrow_blue.png" width="11px" height="16px"></mj-image>
+              </a>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+
+        <!--Confirmation Number Section-->
+        <mj-section background-color="#000000" padding="8px 20px 0 20px" border-radius="10px 10px 0px 0px">
+          <mj-column>
+            <mj-text align="center" font-family="'Source Sans Pro',Arial,sans-serif" font-size="24px" line-height="30px" color="#ffffff" font-weight="700">
+              Confirmation Number: <span style="font-weight:900;">TEST#</span>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <!--Flight Details Section-->
+        <mj-section border-radius="10px" border="2px solid #000000" padding="0 0 0 0">
+          <mj-column>
+            <mj-table>
+              <tr>
+                <td align="left" style="padding:20px 25px; font-family:'Source Sans Pro',Arial,sans-serif; font-size:14px; line-height:20px; color:#000000; font-weight:400;">
+                  <p style="padding:0; margin:0; font-weight:700;">Departing FLL</p>
+                  <p style="padding:0; margin:0; font-size:20px; line-height:30px; font-weight:700;">Fort Lauderdale, FL</p>
+                  <p style="padding:0; margin:0;">10/13/23, 9:10 PM</p>
+                </td>
+                <td align="center" style="padding-top:30px;">
+                  <img src="https://save.spirit-airlines.com/assets/responsysimages/spirit/contentlibrary/1_templates/masterwireframes/icons/icon_plane.png" width="43" height="30" alt="" border="0" style="max-width:100%; display:inline-block;">
+                </td>
+                <td align="right" style="padding:20px 25px; font-family:'Source Sans Pro',Arial,sans-serif; font-size:14px; line-height:20px; color:#000000; font-weight:400;">
+                  <p style="padding:0; margin:0; font-weight:700;">Arriving ATL</p>
+                  <p style="padding:0; margin:0; font-size:20px; line-height:30px; font-weight:700;">Atlanta, GA</p>
+                  <p style="padding:0; margin:0;">10/13/23, 11:11 PM</p>
+                </td>
+              </tr>
+            </mj-table>
+          </mj-column>
+        </mj-section>
+        <mj-section border-radius="10px" border="2px solid #000000" padding="0 0 0 0">
+          <mj-column>
+            <mj-table>
+              <tr>
+                <td align="left" style="padding:20px 25px; font-family:'Source Sans Pro',Arial,sans-serif; font-size:14px; line-height:20px; color:#000000; font-weight:400;">
+                  <p style="padding:0; margin:0; font-weight:700;">Departing ATL</p>
+                  <p style="padding:0; margin:0; font-size:20px; line-height:30px; font-weight:700;">Atlanta, GA</p>
+                  <p style="padding:0; margin:0;">10/15/23, 9:26 AM</p>
+                </td>
+                <td align="center" style="padding-top:30px;">
+                  <img src="https://save.spirit-airlines.com/assets/responsysimages/spirit/contentlibrary/1_templates/masterwireframes/icons/icon_plane.png" width="43" height="30" alt="" border="0" style="max-width:100%; display:inline-block;">
+                </td>
+                <td align="right" style="padding:20px 25px; font-family:'Source Sans Pro',Arial,sans-serif; font-size:14px; line-height:20px; color:#000000; font-weight:400;">
+                  <p style="padding:0; margin:0; font-weight:700;">Arriving FLL</p>
+                  <p style="padding:0; margin:0; font-size:20px; line-height:30px; font-weight:700;">Fort Lauderdale, FL</p>
+                  <p style="padding:0; margin:0;">10/15/23, 11:22 AM</p>
+                </td>
+              </tr>
+            </mj-table>
+          </mj-column>
+        </mj-section>
+
+        <!--Modify Itinerary Section-->
+        <mj-section padding="8px 20px 0 20px">
+          <mj-column>
+            <mj-text padding="0 20x 0 20px" align="center" width="208px">
+              <a href="https://www.spirit.com/" target="_blank" style="font-size:24px; line-height:30px; font-weight:900; color:#007acc; text-decoration:none; text-transform:uppercase;">
+                MODIFY ITINERARY <img src="https://save.spirit-airlines.com/assets/responsysimages/spirit/contentlibrary/1_templates/masterwireframes/icons/arrow_blue.png" width="11" height="16" alt="" border="0" style="max-width:100%; display:inline-block;">
+              </a>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <!--Hotel Cars Trips Partners Section-->
+        <mj-section padding="15px 0 0 0">
+          <mj-column padding="0px 0px" width="100px">
+            <mj-text padding="0" align="center" font-size="24px" line-height="30px" font-weight="900" text-transform="uppercase">
+              <a padding="0" href="https://save.spirit-airlines.com/pub/cc?_ri_=X0Gzc2X%3DAQjkPkSTSQG0EAzeezf5ww0MzchO1Hv7CzfLDzerpzbzalJzcwgvTkGLJgODFXqw4p5ezbqKcfKVXtpKX%3DWSBSBDUTT&amp;_ei_=EW2tf9zs59idfPO1Sc_9Bbl_UfaGQ4bIarcMiVfhbp6WvW3E9O-SPXBU6HKS-bx-kPorYzzVFzMfx33vCTbVC5A6GiLO.&amp;_di_=nsr0psqc2qcal6d7maana10ns7khms8e77ubou9snt1sk3rvtfe0" target="_blank" style="color:#000001; text-decoration:none;">Hotel</a>
+              &nbsp;&nbsp;&nbsp;
+            </mj-text>
+          </mj-column>
+          <mj-column padding="0px 0px" width="80px">
+            <mj-text padding="0" align="center" font-size="24px" line-height="30px" font-weight="900" text-transform="uppercase">
+              <a padding="0" href="https://save.spirit-airlines.com/pub/cc?_ri_=X0Gzc2X%3DAQjkPkSTSQG0EAzeezf5ww0MzchO1Hv7CzfLDzerpzbzalJzcwgvTkGLJgODFXqw4p5ezbqKcfKVXtpKX%3DWSBSBDUWT&amp;_ei_=EW2tf9zs59idfPO1Sc_9Bbl_UfaGQ4bIarcMiVfhbp6WvW3E9O-SPXBU6HKS-bx-kPorYzzVFzMfx33vCTbVC5A6GiLO.&amp;_di_=3mc1afvgoecdggu4lgbhgfuqrhlniqf0jjhqh49p5qakh72u3drg" target="_blank" style="color:#000001; text-decoration:none;">Car</a>
+              &nbsp;&nbsp;&nbsp;
+            </mj-text>
+          </mj-column>
+          <mj-column padding="0px 0px" width="90px">
+            <mj-text padding="0" align="center" font-size="24px" line-height="30px" font-weight="900" text-transform="uppercase">
+              <a padding="0" href="https://save.spirit-airlines.com/pub/cc?_ri_=X0Gzc2X%3DAQjkPkSTSQG0EAzeezf5ww0MzchO1Hv7CzfLDzerpzbzalJzcwgvTkGLJgODFXqw4p5ezbqKcfKVXtpKX%3DWSBSBDUAT&amp;_ei_=EW2tf9zs59idfPO1Sc_9Bbl_UfaGQ4bIarcMiVfhbp6WvW3E9O-SPXBU6HKS-bx-kPorYzzVFzMfx33vCTbVC5A6GiLO.&amp;_di_=fos1pgfkb8mngse7so26o0ocefs2q4sq7ujeqtiicsbv0lk1nb10" target="_blank" style="color:#000001; text-decoration:none;">Trips</a>
+              &nbsp;&nbsp;&nbsp;
+            </mj-text>
+          </mj-column>
+          <mj-column padding="0px 0px" width="165px">
+            <mj-text padding="0" align="center" font-size="24px" line-height="30px" font-weight="900" text-transform="uppercase">
+              <a padding="0" href="https://save.spirit-airlines.com/pub/cc?_ri_=X0Gzc2X%3DAQjkPkSTSQG0EAzeezf5ww0MzchO1Hv7CzfLDzerpzbzalJzcwgvTkGLJgODFXqw4p5ezbqKcfKVXtpKX%3DWSBSBDUCT&amp;_ei_=EW2tf9zs59idfPO1Sc_9Bbl_UfaGQ4bIarcMiVfhbp6WvW3E9O-SPXBU6HKS-bx-kPorYzzVFzMfx33vCTbVC5A6GiLO.&amp;_di_=h2qk7im23rvgv1o8q3mmph5fceief0f7856uvo5olj5jbrqabjgg" target="_blank" style="color:#000001; text-decoration:none;">Partners</a>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <!--Social Media Section-->
+        <mj-section padding="0 0 0 0">
+          <mj-column padding="0 0 0 0" width="80px">
+            <mj-image padding="0 0 0 0" href="https://save.spirit-airlines.com/pub/cc?_ri_=X0Gzc2X%3DAQjkPkSTSQG0EAzeezf5ww0MzchO1Hv7CzfLDzerpzbzalJzcwgvTkGLJgODFXqw4p5ezbqKcfKVXtpKX%3DWSBSBDWRT&amp;_ei_=EW2tf9zs59idfPO1Sc_9Bbl_UfaGQ4bIarcMiVfhbp6WvW3E9O-SPXBU6HKS-bx-kPorYzzVFzMfx33vCTbVC5A6GiLO.&amp;_di_=tmn7c7aep6dapup62pnd66sght9ld2bq53qfsg97pnbrgknae9p0" src="https://save.spirit-airlines.com/assets/responsysimages/spirit/contentlibrary/1_templates/masterwireframes/icons/twitter_icon.jpg" alt="Twitter" width="50px"></mj-image>
+          </mj-column>
+          <mj-column padding="0 0 0 0" width="50px">
+            <mj-image padding="0 0 0 0" href="https://save.spirit-airlines.com/pub/cc?_ri_=X0Gzc2X%3DAQjkPkSTSQG0EAzeezf5ww0MzchO1Hv7CzfLDzerpzbzalJzcwgvTkGLJgODFXqw4p5ezbqKcfKVXtpKX%3DWSBSBDWTT&amp;_ei_=EW2tf9zs59idfPO1Sc_9Bbl_UfaGQ4bIarcMiVfhbp6WvW3E9O-SPXBU6HKS-bx-kPorYzzVFzMfx33vCTbVC5A6GiLO.&amp;_di_=qlpt4q9nube23468vse3i28p6jr5s4efuh7i35q4jj3suco18ieg" src="https://save.spirit-airlines.com/assets/responsysimages/spirit/contentlibrary/1_templates/masterwireframes/icons/instagram_icon.jpg" alt="Instagram" width="50px"></mj-image>
+          </mj-column>
+          <mj-column padding="0 0 0 0" width="80px">
+            <mj-image padding="0 0 0 0" href="https://save.spirit-airlines.com/pub/cc?_ri_=X0Gzc2X%3DAQjkPkSTSQG0EAzeezf5ww0MzchO1Hv7CzfLDzerpzbzalJzcwgvTkGLJgODFXqw4p5ezbqKcfKVXtpKX%3DWSBSBDWWT&amp;_ei_=EW2tf9zs59idfPO1Sc_9Bbl_UfaGQ4bIarcMiVfhbp6WvW3E9O-SPXBU6HKS-bx-kPorYzzVFzMfx33vCTbVC5A6GiLO.&amp;_di_=fv0qm67j5er21m8fuqke2788m30jemds2hnjapdl5n3i5iro1jlg" src="https://save.spirit-airlines.com/assets/responsysimages/spirit/contentlibrary/1_templates/masterwireframes/icons/facebook_icon.jpg" alt="Facebook" width="50px"></mj-image>
+          </mj-column>
+        </mj-section>
+
+
+        <!--Footer Section-->
+        <mj-section padding="40px 0 0 0">
+          <mj-column>
+            <mj-text line-height="20px" align="center" font-size="12px" color="#000" font-style="normal" font-weight="600" font-family="source sans pro, arial, sans-serif">
+              Spirit Airlines<br />
+              2800 Executive Way<br />
+              Miramar, FL 33025<br />
+              Copyright © 2023 Spirit Airlines, Inc. All Rights Reserved.
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section padding="0px 0 0 0">
+          <mj-column>
+            <mj-text align="center" font-family="'Source Sans Pro',Arial,sans-serif" font-size="12px" line-height="18px" color="#000000" font-weight="600">
+              <mj-raw>
+                <table align="center" cellpadding="0" cellspacing="0" border="0" style="max-width:100%;">
+                  <tbody>
+                    <tr>
+                      <td style="padding:0px 10px;">
+                        <a href="https://save.spirit-airlines.com/pub/cc?_ri_=X0Gzc2X%3DAQjkPkSTSQG0EAzeezf5ww0MzchO1Hv7CzfLDzerpzbzalJzcwgvTkGLJgODFXqw4p5ezbqKcfKVXtpKX%3DWSBSBDWAT&amp;_ei_=EW2tf9zs59idfPO1Sc_9Bbl_UfaGQ4bIarcMiVfhbp6WvW3E9O-SPXBU6HKS-bx-kPorYzzVFzMfx33vCTbVC5A6GiLO.&amp;_di_=sidva9k5i1pivjb99rdjqqtt1q9kc49qgucdupjoodnphea9a03g" target="_blank" style="color:#007acc; text-decoration:underline;">Privacy Policy</a>
+                      </td>
+                      <td style="padding:0px 10px;">
+                        <a href="https://save.spirit-airlines.com/pub/cc?_ri_=X0Gzc2X%3DAQjkPkSTSQG0EAzeezf5ww0MzchO1Hv7CzfLDzerpzbzalJzcwgvTkGLJgODFXqw4p5ezbqKcfKVXtpKX%3DWSBSBDWCT&amp;_ei_=EW2tf9zs59idfPO1Sc_9Bbl_UfaGQ4bIarcMiVfhbp6WvW3E9O-SPXBU6HKS-bx-kPorYzzVFzMfx33vCTbVC5A6GiLO.&amp;_di_=t84s7ndma8ij1k01lnb3oombtaf4006uf71qv92hiuui5u4b5jbg" target="_blank" style="color:#007acc; text-decoration:underline;">Help</a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </mj-raw>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
